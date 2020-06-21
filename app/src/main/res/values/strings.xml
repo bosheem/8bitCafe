@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">8bitCafe</string>
+    <string name="coffeeID">Coffee ID</string>
+    <string name="coffeeName">Coffee Name</string>
+    <string name="coffeePrice">Coffee Price</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="search">Search</string>
+
+    <string name="GoogleAPIKey">AIzaSyDprG_WyBnoxzBoM8skKtIQtJ_CCS0ndoM</string>
+
+    <string-array name="coffeeMenuSpinner">
+        <item>Coffee1</item>
+        <item>Coffee2</item>
+        <item>Coffee3</item>
+        <item>Coffee4</item>
+        <item>Coffee5</item>
+        <item>Coffee6</item>
+        <item>Coffee7</item>
+        <item>Coffee8</item>
+        <item>Coffee9</item>
+        <item>Coffee10</item>
+    </string-array>
+
+</resources>

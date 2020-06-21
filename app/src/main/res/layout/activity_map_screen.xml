@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapScreen">
+
+    <ImageButton
+        android:id="@+id/HomeScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="300dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="@color/cast_intro_overlay_button_background_color"
+        android:src="@android:drawable/ic_menu_today"
+        android:text="Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!--Button for map-->
+    <ImageButton
+        android:id="@+id/toMapScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="@color/cast_intro_overlay_button_background_color"
+        android:src="@android:drawable/ic_menu_mapmode"
+        android:text="toMapScreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!--Button for menu-->
+    <ImageButton
+        android:id="@+id/MenuScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="230dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="@color/cast_intro_overlay_button_background_color"
+        android:src="@android:drawable/ic_menu_add"
+        android:text="Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Directions"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

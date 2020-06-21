@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:addStatesFromChildren="false"
+    app:layout_insetEdge="bottom"
+    tools:context=".MainActivity">
+
+    <!--Button for Home-->
+    <ImageButton
+        android:id="@+id/HomeScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="@color/cast_intro_overlay_button_background_color"
+        android:src="@android:drawable/ic_menu_today"
+        android:text="Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!--Button for map-->
+    <ImageButton
+        android:id="@+id/toMapScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="300dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="@color/cast_intro_overlay_button_background_color"
+        android:src="@android:drawable/ic_menu_mapmode"
+        android:text="toMapScreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!--Button for menu-->
+    <ImageButton
+        android:id="@+id/MenuScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="85dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="@color/cast_intro_overlay_button_background_color"
+        android:src="@android:drawable/ic_menu_add"
+        android:text="Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!--Button for instagram-->
+    <ImageView
+        android:id="@+id/placeHolderImage"
+        android:layout_width="219dp"
+        android:layout_height="209dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="90dp"
+        android:adjustViewBounds="true"
+        android:visibility="visible"
+        tools:srcCompat="@drawable/school"
+        tools:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />/>
+
+    <Button
+        android:id="@+id/launchInsta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/placeHolderImage"
+        android:layout_centerHorizontal="true"
+        android:text="Instagram" />
+
+
+</RelativeLayout>
