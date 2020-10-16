@@ -19,10 +19,10 @@ public class coffeeMenu extends AppCompatActivity {
 
     private Button toYourOrder;
 
-    private Button addToOrder1;
-    private Button addToOrder2;
-    private Button addToOrder3;
-    private Button addToOrder4;
+    private Button addToOrder1;                          //create addToOrder button
+    private Button addToOrder2;                          //create addToOrder button
+    private Button addToOrder3;                          //create addToOrder button
+    private Button addToOrder4;                          //create addToOrder button
 
     public String coffee1 = "Coffee 1";
     public String coffee2 = "Coffee 2";
